@@ -1,5 +1,5 @@
  -------------------------------------------------------------------------------------------------------------------------------
-|  SistInfGen  (Ejecutar la aplicación: java -jar SistInfGenWeb.jar)                                                            |
+|  SistInfGen  (Ejecutar la aplicación: java -jar -Dfile.encoding=UTF-8  SistInfGenWeb.jar )                                                            |
 |  Es un un gestor de contenidos que genera un portal con la siguiente información dependiendo del nivel de gestión mantenido   |
 |                                                                                                                               |
 |		                                                                                                                        |
@@ -15,7 +15,6 @@
 |    - Validaciones W3C HTML5 y css nivel 3 .                                                                                   |
 |    - Indicar fecha de actualización en la página.                                                                             |
 |    . Añadir una trazabilidad de acceso mediante GoogleAnalitics.                                                              |
-|    . Añadir trazabilidad de difusión mediante addThis                                                                         |
 |    . Con licencia http://es.creativecommons.org/licencia/                                                                     |
 |    . Servicio de traducción de Google                                                                                         |
 |                                                                                                                               |
