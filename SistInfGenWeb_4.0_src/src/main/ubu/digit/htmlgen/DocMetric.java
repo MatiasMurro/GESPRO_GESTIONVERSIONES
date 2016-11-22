@@ -22,9 +22,9 @@ import ubu.digit.util.ThresHold;
  * MetricaValores(M0,M1,...) donde M0 y M1 se debe corresponder con las filas
  * del atributo Id .
  * <p>
- * Dependencias sobre recursos web: ./web/css/ubuSisInf.css
- * ./web/js/tip_followscroll.js, ./web/js/wz_tooltip.js
- * ./web/js/tip_centerwindow.js./web/js/googleanalitics.js ./web/js/sorttable.js
+ *  Dependencias sobre recursos web: ./css/materialize.min.css, ./css/style.css,
+ *  materialize.min.js, ./web/js/tip_followscroll.js, ./web/js/wz_tooltip.js,
+ * ./web/js/tip_centerwindow.js, ./web/js/googleanalitics.js, ./web/js/sorttable.js.
  * 
  * @author Carlos López Nozal
  * @author Beatriz Zurera Martínez-Acitores
@@ -194,7 +194,8 @@ public class DocMetric extends DocSistInfHtml {
      * MetricSist.html. Genera el fichero MetricSist.html a partir de los datos
      * en un fichero externo.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css, ./js/sorttable.js
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css y
+     * ./js/sorttable.js
      * 
      */
     @Override

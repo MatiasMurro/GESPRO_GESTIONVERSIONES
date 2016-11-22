@@ -15,7 +15,7 @@ import ubu.digit.util.ExternalProperties;
  * Clase que genera el código html correspondiente a la página de index.html a
  * partir de información en fichero externo al que se accede por odbc.
  * <p>
- * Dependencias sobre recursos web: ./css/ubuSisInf.css
+ * Dependencias sobre recursos web: ./css/materialize.min.css y ./css/style.css.
  * <p>
  * Dependencias sobre los datos: Tribunal(Cargo,NombreApellidos,Nick)
  * Norma(Descripcion) Calendario(Descripcion,Convocatoria,Fecha)
@@ -66,7 +66,7 @@ public class DocIndex extends DocSistInfHtml {
      * index.html. Genera el fichero index.html a partir de los datos en un
      * fichero externo.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css.
+     * Dependencias sobre ./css/materialize.min.css y ./css/style.css.
      */
     @Override
     public void generate(int level) throws FileNotFoundException, SQLException {
@@ -127,7 +127,7 @@ public class DocIndex extends DocSistInfHtml {
      * Estrategia de generación del codigo html correspondiente al subtitulo de
      * documentos de la página de index.html.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css.
+     * Dependencias sobre ./css/materialize.min.css y ./css/style.css.
      * 
      * @throws SQLException
      */
@@ -151,7 +151,7 @@ public class DocIndex extends DocSistInfHtml {
      * Estrategia de generación del codigo html correspondiente al subtitulo de
      * calendario de la página de index.html
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css.
+     * Dependencias sobre ./css/materialize.min.css y ./css/style.css.
      * 
      * @throws SQLException
      */
@@ -172,7 +172,7 @@ public class DocIndex extends DocSistInfHtml {
      * Estrategia de generación del codigo html correspondiente al subtitulo de
      * Normas de la página de index.html
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css.
+     * Dependencias sobre ./css/materialize.min.css y ./css/style.css.
      * 
      * @throws SQLException
      */
@@ -193,7 +193,7 @@ public class DocIndex extends DocSistInfHtml {
      * Estrategia de generación del codigo html correspondiente al subtitulo de
      * Tribunal de la página de index.html
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css.
+     * Dependencias sobre ./css/materialize.min.css y ./css/style.css.
      * 
      * @throws SQLException
      */

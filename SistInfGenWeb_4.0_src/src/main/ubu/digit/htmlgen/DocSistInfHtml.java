@@ -114,7 +114,7 @@ public abstract class DocSistInfHtml {
      * Genera el código html correspondiente a un menu de una dimensión cuyos
      * títulos se pasan como parámetro.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css.
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css.
      * <p>
      * Añade un enlace de difusión de la página mediante marcadores dinámicos, y
      * invocacción al serviccio de traducción al inglés de google.
@@ -139,7 +139,7 @@ public abstract class DocSistInfHtml {
      * Genera un pie de página html con la fecha actual de actualización y los
      * iconos de validación W3C.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css.
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css.
      */
     protected void createFootHtml() {
         long segTotal = System.currentTimeMillis();
@@ -219,8 +219,8 @@ public abstract class DocSistInfHtml {
     /**
      * Genera el código html correspondiente a la cabecera html.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css, ./images/logoLSI.gif,
-     * ./js/sorttable.js.
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css,
+     * ./images/logoLSI.gif, ./js/sorttable.js.
      * 
      * @param title
      *            Título de la página html.
@@ -255,7 +255,7 @@ public abstract class DocSistInfHtml {
      * referencias del menú se corresponde con la estructura de las páginas que
      * componen el portal.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css.
      * 
      * @param level
      *            Nivel de generación del portal.
@@ -393,7 +393,8 @@ public abstract class DocSistInfHtml {
      * en una tabla html. La tabla html puede se página respecto al número de
      * filas.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css ./js/sorttable.js
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css y
+     * ./js/sorttable.js
      * 
      * @param tamPage
      *            Número de filas por página.
@@ -460,7 +461,7 @@ public abstract class DocSistInfHtml {
      * página html. Se una refencia de acceso interna a la propia página, asi
      * como una refencia al inicio de la página.
      * <p>
-     * Dependencias sobre ./css/ubuSisInf.css
+     * Dependencias sobre ./css/materialize.min.css, ./css/style.css.
      * 
      * @param title
      *            Contenido del título.
