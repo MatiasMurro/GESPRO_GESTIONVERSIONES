@@ -55,7 +55,7 @@ public class SistInfData {
      * URL donde encontramos el fichero con las propiedades del proyecto.
      */
     private static ExternalProperties prop = ExternalProperties
-            .getInstance("./../src/main/config.properties");
+            .getInstance("./config.properties");
 
     /**
      * Directorio donde se encuentra los datos de entrada, es decir, los

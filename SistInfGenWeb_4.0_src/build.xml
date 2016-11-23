@@ -105,7 +105,10 @@
 		</copy>
 		<!-- Copia los LEEME.txt y licencia de la aplicación -->
 		<copy file="${rsc.main.dir}/LEEME.TXT" todir="${run.dir}" />
-
+		
+		<!-- Copia las propiedades de la aplicaciÃ³n para ejecuciÃ³n -->
+		<copy file="${src.main.dir}/config.properties" todir="${run.dir}" />
+		
 		<!-- Copia los archivos de recursos web de la aplicación -->
 		<copy todir="${run.rsc.web}/css">
 			<fileset dir="${rsc.main.web}/css" />

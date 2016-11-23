@@ -42,7 +42,7 @@ public class DocMetric extends DocSistInfHtml {
      * URL donde encontramos el fichero con las propiedades del proyecto.
      */
     private static ExternalProperties prop = ExternalProperties
-            .getInstance("./../src/main/config.properties");
+            .getInstance("./config.properties");
 
     /**
      * Directorio de salida de los HTML creados.
