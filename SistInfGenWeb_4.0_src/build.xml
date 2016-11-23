@@ -108,6 +108,10 @@
 		
 		<!-- Copia las propiedades de la aplicaciÃ³n para ejecuciÃ³n -->
 		<copy file="${src.main.dir}/config.properties" todir="${run.dir}" />
+<<<<<<< HEAD
+=======
+		
+>>>>>>> origin/master
 		<!-- Copia los archivos de recursos web de la aplicación -->
 		<copy todir="${run.rsc.web}/css">
 			<fileset dir="${rsc.main.web}/css" />
