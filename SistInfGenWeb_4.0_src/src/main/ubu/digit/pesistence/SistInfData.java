@@ -650,7 +650,7 @@ public class SistInfData {
      */
     private Date transform(String g) {
 
-        DateFormat formatter = new SimpleDateFormat("MM/DD/yyyy");
+        DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
 
         Date date = null;
         try {
