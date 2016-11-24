@@ -47,10 +47,7 @@ public class DocHistoric extends DocSistInfHtml {
      */
     private static ExternalProperties prop = ExternalProperties
            .getInstance("./config.properties");
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 
     /**
      * Directorio de salida de los HTML creados.
