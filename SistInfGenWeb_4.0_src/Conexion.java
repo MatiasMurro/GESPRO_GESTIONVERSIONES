@@ -23,8 +23,8 @@ public class Conexion {
 			System.out.println("=> Cargando el Driver:");
 			Class.forName(driver);
 			System.out.println("OK");
-			
-			/* Definiendo Base de Datos */ 
+		/*aaaaa*/	
+
 			String url = "jdbc:postgresql://" + datosConexion.getHost() + ":"+datosConexion.getPuerto()+"/" + datosConexion.getBBDD();
 		
 		
