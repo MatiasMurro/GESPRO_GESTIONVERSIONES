@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-
+//cambio
 
 public class Conexion {
 	Statement st = null;
